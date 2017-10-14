@@ -1,0 +1,13 @@
+﻿  thread.cpp
+  precompiled_header.cpp
+  main.cpp
+  image_res.cpp
+c:\users\administrator\desktop\gobang\gobang\gobang\image_res.cpp(188): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+c:\users\administrator\desktop\gobang\gobang\gobang\image_res.cpp(204): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+c:\users\administrator\desktop\gobang\gobang\gobang\image_res.cpp(208): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  handle_tasks.cpp
+  client.cpp
+  arithmetic.cpp
+  正在生成代码...
+  Gobang.vcxproj -> C:\Users\Administrator\Desktop\Gobang\Gobang\Debug\Gobang.exe
+  Gobang.vcxproj -> C:\Users\Administrator\Desktop\Gobang\Gobang\Debug\Gobang.pdb (Full PDB)

@@ -1,0 +1,766 @@
+2017/10/4  13:3:7
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  13:3:7
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  13:3:8
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  13:3:8
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  14:39:42
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  14:39:49
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  14:39:50
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  14:39:50
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:1:12
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:1:12
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:1:13
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:1:13
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:2:16
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:2:17
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:2:17
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:2:18
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:4:10
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:4:10
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:4:10
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:4:11
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:6:14
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:6:14
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:6:14
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:6:15
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:8:47
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:8:47
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:8:48
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:8:48
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:10:59
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:11:0
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:11:0
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:11:1
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:13:43
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:13:44
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:13:44
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:13:45
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:15:26
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:15:26
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:15:27
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:15:28
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:18:45
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:18:45
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:18:46
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:18:46
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:20:39
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:20:40
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:20:40
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:20:41
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:21:0
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:21:0
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:21:0
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:21:1
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:35:48
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:35:49
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:35:49
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:35:50
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:36:28
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:36:29
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:36:29
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:36:30
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:38:26
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:38:26
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:38:27
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:38:27
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:39:53
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:39:54
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:39:54
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:39:54
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:40:53
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:40:54
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:40:54
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:40:55
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:48:54
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:48:54
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:48:55
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:48:55
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:49:23
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:49:24
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:49:24
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:49:25
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:49:55
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:49:56
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:49:57
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:49:57
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:50:20
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:50:20
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:50:21
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:50:21
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  17:51:4
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  17:51:5
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  17:51:5
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  17:51:6
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  18:3:50
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  18:3:51
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  18:3:52
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  18:3:53
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  18:17:32
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  18:17:32
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  18:17:33
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  18:17:33
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  18:21:5
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  18:21:6
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  18:21:6
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  18:21:7
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:19:17
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:19:17
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:19:18
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:19:18
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:20:40
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:20:41
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:20:41
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:20:42
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:22:18
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:22:19
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:22:19
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:22:19
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:23:0
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:23:0
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:23:0
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:23:1
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:23:55
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:23:56
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:23:56
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:23:56
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:25:27
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:25:30
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:25:30
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:25:31
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:27:39
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:27:40
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:27:41
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:27:41
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:29:43
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:29:43
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:29:44
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:29:44
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:31:27
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:31:28
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:31:28
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:31:28
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:33:59
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:34:0
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:34:1
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:34:1
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:34:42
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:34:43
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:34:44
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:34:44
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:35:12
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:35:13
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:35:14
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:35:14
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:38:8
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:38:9
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:38:9
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:38:10
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:38:42
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:38:42
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:38:43
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:38:43
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:40:53
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:40:53
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:40:54
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:40:54
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  19:41:15
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  19:41:15
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  19:41:16
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  19:41:16
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  20:2:36
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  20:2:36
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  20:2:37
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  20:2:37
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  20:4:18
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  20:4:19
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  20:4:19
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  20:4:20
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  20:5:34
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  20:5:35
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  20:5:35
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  20:5:36
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  20:6:10
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  20:6:10
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  20:6:10
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  20:6:11
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  20:8:31
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  20:8:31
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  20:8:32
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  20:8:32
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  20:9:13
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  20:9:14
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  20:9:14
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  20:9:14
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  20:9:48
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  20:9:48
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  20:9:49
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  20:9:49
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  20:10:12
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  20:10:12
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  20:10:12
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  20:10:13
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  20:11:5
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  20:11:6
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  20:11:6
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  20:11:6
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/4  20:34:53
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/4  20:34:54
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/4  20:34:54
+´íÎó´úÂë:10038,Call send() failed
+2017/10/4  20:34:54
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  11:43:7
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  11:43:7
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  11:43:7
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  11:43:8
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  11:46:49
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  11:46:49
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  11:46:49
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  11:46:50
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  11:47:20
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  11:47:20
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  11:47:20
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  11:47:21
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  11:50:39
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  11:50:39
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  11:50:40
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  11:50:40
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  11:52:40
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  11:52:40
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  11:52:40
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  11:52:41
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  11:53:10
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  11:53:11
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  11:53:11
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  11:53:13
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  11:54:18
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  11:54:19
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  11:54:19
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  11:54:20
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  11:59:57
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  11:59:57
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  11:59:58
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  11:59:58
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  12:0:49
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  12:0:50
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  12:0:50
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  12:0:51
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  12:3:38
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  12:3:39
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  12:3:43
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  12:3:44
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  15:48:54
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  15:48:54
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  15:48:54
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  15:48:57
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  15:50:34
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  15:50:34
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  15:50:34
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  15:50:35
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  16:7:26
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  16:7:29
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  16:7:30
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  16:7:33
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  16:8:57
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  16:8:59
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  16:9:0
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  16:9:0
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  16:19:16
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  16:19:17
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  16:19:18
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  16:19:18
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  16:21:34
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  16:21:34
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  16:21:35
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  16:21:35
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  16:26:16
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  16:26:17
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  16:26:17
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  16:26:17
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  16:38:32
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  16:38:32
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  16:38:33
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  16:38:33
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  16:44:51
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  16:44:55
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  16:44:56
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  16:44:57
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  16:49:15
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  16:49:16
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  16:49:16
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  16:49:17
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  16:55:24
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  16:55:26
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  16:55:26
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  16:55:26
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  16:57:17
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  16:57:17
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  16:57:18
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  16:57:19
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  17:11:17
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  17:11:18
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  17:11:18
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  17:11:19
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/5  21:27:29
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/5  21:27:30
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/5  21:27:31
+´íÎó´úÂë:10038,Call send() failed
+2017/10/5  21:27:31
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/6  0:4:50
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/6  0:4:50
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/6  0:4:51
+´íÎó´úÂë:10038,Call send() failed
+2017/10/6  0:4:51
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/6  12:32:12
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/6  12:32:13
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/6  12:32:13
+´íÎó´úÂë:10038,Call send() failed
+2017/10/6  12:32:14
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/6  13:52:35
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/6  13:52:36
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/6  13:52:36
+´íÎó´úÂë:10038,Call send() failed
+2017/10/6  13:52:36
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/6  14:29:34
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/6  14:29:35
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/6  14:29:35
+´íÎó´úÂë:10038,Call send() failed
+2017/10/6  14:29:36
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/6  14:33:49
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/6  14:33:49
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/6  14:33:50
+´íÎó´úÂë:10038,Call send() failed
+2017/10/6  14:33:50
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/6  14:36:24
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/6  14:36:25
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/6  14:36:25
+´íÎó´úÂë:10038,Call send() failed
+2017/10/6  14:36:26
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/6  14:37:23
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/6  14:37:24
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/6  14:37:24
+´íÎó´úÂë:10038,Call send() failed
+2017/10/6  14:37:24
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/6  15:7:10
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/6  15:7:11
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/6  15:7:14
+´íÎó´úÂë:10038,Call send() failed
+2017/10/6  15:10:38
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/6  15:10:39
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/6  15:10:39
+´íÎó´úÂë:10038,Call send() failed
+2017/10/6  15:10:40
+´íÎó´úÂë:10038,Call recv() failed
+2017/10/8  14:36:25
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/8  14:38:23
+´íÎó´úÂë:10043,Call socket() failed
+2017/10/8  14:44:9
+´íÎó´úÂë:1410,Call bind() failed
+2017/10/13  19:27:31
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/13  19:28:5
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/13  20:31:19
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/13  20:31:37
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/13  20:33:17
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/13  20:33:28
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/13  21:39:45
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/13  21:39:54
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/13  21:41:28
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/13  21:45:54
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/13  21:46:0
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/13  21:58:37
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/13  21:58:44
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/13  22:0:17
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/13  22:0:24
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/13  22:4:3
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/13  22:4:4
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/14  8:46:7
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  8:46:8
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/14  8:48:51
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  8:48:52
+´íÎó´úÂë:10038,Call connect() failed
+2017/10/14  8:53:18
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  8:56:40
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  8:57:35
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  8:58:7
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:1:22
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:3:20
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:4:7
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:4:38
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:9:1
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:22:16
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:24:52
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:26:14
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:26:49
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:27:41
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:39:56
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:40:51
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:42:37
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:53:56
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:54:48
+´íÎó´úÂë:10093,Call socket() failed
+2017/10/14  9:55:38
+´íÎó´úÂë:10093,Call socket() failed
