@@ -26,6 +26,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="precompiled_header.cpp" />
     <ClCompile Include="thread.cpp" />
+    <ClCompile Include="voice.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arithmetic.h" />
@@ -37,6 +38,7 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="singleton_pattern.h" />
     <ClInclude Include="thread.h" />
+    <ClInclude Include="voice.h" />
     <ClInclude Include="windows_handle.h" />
   </ItemGroup>
   <ItemGroup>
