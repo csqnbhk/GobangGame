@@ -11,7 +11,7 @@ DWORD CALLBACK voice::MicCallback(HWAVEIN hwavein, UINT uMsg, DWORD dwInstance, 
 
 	case WIM_DATA:
 	{
-		printf("\n»º³åÇø%d´æÂú...\n", ((LPWAVEHDR)dwParam1)->dwUser);
+		cout << "»º³åÇø%d´æÂú..." << ((LPWAVEHDR)dwParam1)->dwUser << endl;
 		memcpy(pVoice->Out_Buf, ((LPWAVEHDR)dwParam1)->lpData, BUFFSIZE);
 		waveOutWrite(pVoice->m_hWaveOut, &pVoice->lpOutWaveHdr, sizeof(WAVEHDR));
 		waveInAddBuffer(hwavein, (LPWAVEHDR)dwParam1, sizeof(WAVEHDR));

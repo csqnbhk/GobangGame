@@ -1,0 +1,56 @@
+2017/10/21  18:49:56
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  18:54:10
+´íÎó´úÂë:10049,Call connect() failed
+2017/10/21  18:58:40
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  19:2:33
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  19:5:7
+´íÎó´úÂë:10049,Call connect() failed
+2017/10/21  19:36:17
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  19:38:27
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:0:30
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:0:30
+´íÎó´úÂë:10057,Call send() failed
+2017/10/21  20:1:3
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:6:1
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:17:3
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:19:33
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:21:36
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:22:36
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:25:7
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:26:31
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:34:49
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:39:23
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:39:59
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:43:17
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:51:5
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  20:54:13
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  21:20:49
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  21:31:56
+´íÎó´úÂë:10035,Call connect() failed
+2017/10/21  21:44:13
+´íÎó´úÂë:10057,Call send() failed
+2017/10/21  21:44:38
+´íÎó´úÂë:10057,Call send() failed
+2017/10/21  21:59:9
+´íÎó´úÂë:10057,Call send() failed

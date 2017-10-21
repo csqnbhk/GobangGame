@@ -99,12 +99,14 @@ LRESULT CALLBACK WinProc(HWND hwnd, UINT Message, WPARAM wparam, LPARAM lparam)
 
 			break;
 		 }
-
+		 case FD_CONNECT:
+		 MessageBox(hwnd, TEXT("连接服务器成功"),TEXT( "连接提示"), MB_OK);
+		 break;
 		case FD_READ:                  //在这里处理各种命令
 		{
 
 			w_h_socket->RecvMsgPack();//先用在这里用单线程处理
-			int16  return_msg_code=parse_msg->GetCode(w_h_socket->GetRecvPack());
+			int16 return_msg_code=parse_msg->GetCode(w_h_socket->GetRecvPack());
 			c_p = parse_msg->GetSite(w_h_socket->GetRecvPack());                     //获取对方坐标点
 
 			switch (return_msg_code)

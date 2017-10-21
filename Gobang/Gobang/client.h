@@ -14,7 +14,7 @@ class Socket:public SOCKADDR_IN //,public log_thread
 {
 
 	public: 
-	explicit Socket(char const*pIp="127.0.0.1",u_short const port=1660);
+	explicit Socket(char const*pIp="127.0.0.1",u_short const port=16600);
 	virtual~Socket() noexcept;
 
 	inline u_short GetPort()const 
@@ -38,12 +38,9 @@ public:
 		this->sin_addr.S_un.S_addr = inet_addr(pIp);
 	}
 public:
-
 	bool InitEnvironment();
-	bool BindServer();
+	void InitClientSocket();
 	bool ConnectServer();
-	int Send();
-	int Recv();
 	int SendMsgPack();
 	int RecvMsgPack();
 public:
@@ -51,9 +48,7 @@ public:
 public:
 	void CloseConnect();
 	void ClearResource();
-
-public:
-	bool socket_connect_windows();
+	
 public:
 	inline ptr_msg_pack GetSendPack()
 	{
@@ -63,22 +58,21 @@ public:
 	{
 		return this->RecvPack;
 	}
+public:
+	void SetSendPack(msg_code code,msg_location,char *const data);
+
 private:
 	static log_thread*socket_log;
 	static Socket*SocketInstance;
-	SOCKET listensocket;
+	SOCKET serversocket;
 	SOCKADDR_IN sockaddr;
-	char*pSendBuffer;
-	char*pRecBuffer;
-
+	
 	ptr_msg_pack SendPack;
 	ptr_msg_pack RecvPack;
 
 	TCHAR*tempbuffer1;
-	TCHAR*tempbuffer2;
-	TCHAR*tempbuffer3;
 	char*tempbuffer4;
-	TCHAR*tempbuffer5;
+
 
 };
 my_namespace_end
