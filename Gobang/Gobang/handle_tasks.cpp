@@ -5,7 +5,7 @@ my_namespace_begin
  handle_tasks*handle_tasks::GetInstance()
 {
 	if (ptr_tasks == nullptr)
-		ptr_tasks = new handle_tasks();
+	ptr_tasks = new handle_tasks();
 	return ptr_tasks;
 }
 
@@ -50,10 +50,18 @@ void handle_tasks::HanldeTakeNext(msg_location enemy_location)
 }
 
 //请求求和
-bool handle_tasks::HandleBegPeace()                                                    
+bool handle_tasks::HandleBegPeace(Socket*w_h_socket)
 {
-
-	return true;
+	if (MessageBox(0, TEXT("对方向你发出求和请求，是否同意？"), TEXT("求和提示"), MB_YESNO | MB_ICONWARNING) == IDYES)
+	{
+		this->HandleAgreeBegPeace(w_h_socket);
+		return true;
+	}
+	else
+	{
+		this->HandleDisagreeBegPeace(w_h_socket);
+		return false;
+	}
 }
 
 //同意求和
@@ -71,9 +79,18 @@ void  handle_tasks::HandleDisagreeBegPeace(Socket*w_h_socket)
 }
 
 //请求悔棋
-bool handle_tasks::HandleBegBack()                                                   
+bool handle_tasks::HandleBegBack(Socket*w_h_socket)
 {
-	return true;
+	if (MessageBox(0, TEXT("对方向你发出悔棋请求，是否同意？"), TEXT("悔棋提示"), MB_YESNO | MB_ICONWARNING) == IDYES)
+	{
+		this->HandleAgreeBegBack(w_h_socket);
+		return true;
+	}
+	else
+	{
+		this->HandleDisagreeBegBack(w_h_socket);
+		return false;
+	}
 }
 
 //同意悔棋

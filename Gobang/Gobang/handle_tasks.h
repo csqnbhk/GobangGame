@@ -44,11 +44,11 @@ public:
 	void HandleTryAgain();                                     //再来一盘
 	void HanldeTakeNext(msg_location enemy_location);          //处理下棋
 
-	bool HandleBegPeace();                                     //请求求和
+	bool HandleBegPeace(Socket*w_h_socket);                    //请求求和
 	void HandleAgreeBegPeace(Socket*w_h_socket);               //同意求和
 	void HandleDisagreeBegPeace(Socket*w_h_socket);            //不同意求和
 
-	bool HandleBegBack();                                      //请求悔棋
+	bool HandleBegBack(Socket*w_h_socket);                     //请求悔棋
 	void HandleAgreeBegBack(Socket*w_h_socket);                //同意悔棋
 	void HandleDisagreeBegBack(Socket*w_h_socket);             //不同意悔棋
 	void HandleWin();                                          //处理赢棋

@@ -133,12 +133,12 @@ LRESULT CALLBACK WinProc(HWND hwnd, UINT Message, WPARAM wparam, LPARAM lparam)
 			  }
 			  case	msg_beg_peace:                                                  //请求求和
 			  {
-				  w_h_tasks->HandleBegPeace();
+				  w_h_tasks->HandleBegPeace(w_h_socket);
 				  break;
 			  }
 			  case	msg_beg_back:                                                  //请求悔棋
 			  {
-				  w_h_tasks->HandleBegBack();
+				  w_h_tasks->HandleBegBack(w_h_socket);
 				  break;
 			  }
 
@@ -210,24 +210,6 @@ LRESULT CALLBACK WinProc(HWND hwnd, UINT Message, WPARAM wparam, LPARAM lparam)
 	{
 		//int xPos = GET_X_LPARAM(lparam);
 		//int yPos = GET_Y_LPARAM(lparam);
-		//if (xPos > 645 && xPos < 745 && yPos>220 && yPos < 250)
-		//{
-
-		//	
-		//}
-		//
-		//if (xPos > 645 && xPos < 745 && yPos>275 && yPos <305)
-		//{
-		//	//LoadBegBack(hwnd, TEXT("myres//begback_2.bmp"), 100, 30, 645, 275);
-		//}
-		//if (xPos > 645 && xPos < 745 && yPos>350 && yPos <380)
-		//{
-		//	//LoadBegPeace(hwnd, TEXT("myres//begpeace_2.bmp"), 100, 30, 645, 350);
-		//}
-		//if (xPos >695 && xPos< 795 && yPos>570 && yPos <600)
-		//{ 
-		//	//LoadExitGame(hwnd, TEXT("myres//exitgame_2.bmp"), 100, 30, 695, 570);
-		//}
 		break;
 	}
 

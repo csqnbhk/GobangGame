@@ -56,30 +56,15 @@ extern char* ServerIP;
 extern char* ServerPort;
 extern char* ClientIP;
 extern char* ClientPort;
-extern void DelGlobalResource();
+
 /************************************************************/
+extern void DelGlobalResource();
+/***********************************************************/
 
 //字节转化
 /*******************************************************************************************/
-bool _WideCharToMultiByte(LPCWSTR lpWideCharStr, LPSTR lpMultiByteStr, int cbMultiByte)
-{
-	int size = WideCharToMultiByte(CP_OEMCP, NULL, lpWideCharStr, -1, NULL, 0, NULL, FALSE);
-	if (size > cbMultiByte)
-		return false;
-	WideCharToMultiByte(CP_OEMCP, NULL, lpWideCharStr, -1, lpMultiByteStr, cbMultiByte, NULL, FALSE);
-	return true;
-}
-bool _MultiByteToWideChar(LPCSTR lpMultiByteStr, LPWSTR lpWideCharStr, int cchWideChar)
-{
-
-	int size = MultiByteToWideChar(CP_ACP, 0, lpMultiByteStr, -1, NULL, 0);
-	if (size > cchWideChar)
-		return false;
-	MultiByteToWideChar(CP_ACP, 0, lpMultiByteStr, -1, lpWideCharStr, cchWideChar);
-	return true;
-
-}
-
+extern bool _WideCharToMultiByte(LPCWSTR lpWideCharStr, LPSTR lpMultiByteStr, int cbMultiByte);
+extern bool _MultiByteToWideChar(LPCSTR lpMultiByteStr, LPWSTR lpWideCharStr, int cchWideChar);
 /********************************************************************************************/
 
 
@@ -110,16 +95,6 @@ typedef struct save_late_site
 extern ptr_late_site ptr_site;
 /*****************************************************************************/
 
-#ifndef UNICODE 
-#define UNICODE  
-#endif  //UNICODE
-#ifndef TCHAR
-typedef   wchar_t   TCHAR;
-#else     
-typedef unsigned   char   TCHAR;
-#endif 
-
-
 #ifndef ErrorLocation 
 #define ErrorLocation(describe) { wsprintf(describe,TEXT("文件:%s,函数:%s,行数：%d"),__FILE__,__func__,__LINE__);return describe;  }
 #endif //ErrorLocation 
@@ -131,11 +106,6 @@ using int16   = signed short;
 using uint32  = unsigned int;
 using int32   = signed int;
 
-
-
-//define message code
-//static HANDLE io_recv_cond  =::CreateEvent(nullptr,false,false,nullptr);
-//static HANDLE io_write_cond =::CreateEvent(nullptr, false, false, nullptr);
 
 enum
 {

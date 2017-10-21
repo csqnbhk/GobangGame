@@ -34,4 +34,22 @@ void DelGlobalResource()
 	}
 }
 
+bool _WideCharToMultiByte(LPCWSTR lpWideCharStr, LPSTR lpMultiByteStr, int cbMultiByte)
+{
+	int size = WideCharToMultiByte(CP_OEMCP, NULL, lpWideCharStr, -1, NULL, 0, NULL, FALSE);
+	if (size > cbMultiByte)
+		return false;
+	WideCharToMultiByte(CP_OEMCP, NULL, lpWideCharStr, -1, lpMultiByteStr, cbMultiByte, NULL, FALSE);
+	return true;
+}
+bool _MultiByteToWideChar(LPCSTR lpMultiByteStr, LPWSTR lpWideCharStr, int cchWideChar)
+{
+
+	int size = MultiByteToWideChar(CP_ACP, 0, lpMultiByteStr, -1, NULL, 0);
+	if (size > cchWideChar)
+		return false;
+	MultiByteToWideChar(CP_ACP, 0, lpMultiByteStr, -1, lpWideCharStr, cchWideChar);
+	return true;
+
+}
 my_namespace_end
