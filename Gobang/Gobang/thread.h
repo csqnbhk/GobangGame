@@ -33,7 +33,7 @@ private:
 class io_thread:public thread
 {
  public:
-	 io_thread(HANDLE handle=nullptr);
+	explicit io_thread(HANDLE handle=nullptr);
 	virtual ~io_thread() noexcept;
     virtual void Entry() override;
 public:

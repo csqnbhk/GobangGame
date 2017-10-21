@@ -4,8 +4,9 @@
 #include"client.h"
 #include"thread.h"
 #include"resource.h"
-#include"Dialog_handle.h"
 
+#include"Dialog_handle.h"
+#include"voice.h"
 use_mynamespace
 
 int WINAPI WinMain(HINSTANCE hinstance,HINSTANCE prehinstance,LPSTR lpCmdLine,int nCmdShow)
@@ -22,7 +23,8 @@ int WINAPI WinMain(HINSTANCE hinstance,HINSTANCE prehinstance,LPSTR lpCmdLine,in
 	
 	DialogBox(hinstance, MAKEINTRESOURCE(IDD_DIALOG_CONNECT_SERVER),0, (DLGPROC)DialogProc);
 	InitDialog();
-	
+
+	//create socket to connect the server
 	Socket*main_socket = Socket::GetInstance();
 	
 	/*
@@ -33,6 +35,11 @@ int WINAPI WinMain(HINSTANCE hinstance,HINSTANCE prehinstance,LPSTR lpCmdLine,in
 	*/
 	
 	
+	//ÓïÒô²âÊÔ
+	voice*p = new voice();
+	p->RecordVoiceStart();
+
+
 	MSG msg = { 0 };
 	while (GetMessage(&msg, 0,0, 0))
 	{

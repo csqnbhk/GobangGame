@@ -14,7 +14,7 @@ class Socket:public SOCKADDR_IN //,public log_thread
 {
 
 	public: 
-	Socket(char const*pIp="127.0.0.1",u_short const port=1660);
+	explicit Socket(char const*pIp="127.0.0.1",u_short const port=1660);
 	virtual~Socket() noexcept;
 
 	inline u_short GetPort()const 

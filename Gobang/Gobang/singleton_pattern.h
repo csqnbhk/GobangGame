@@ -34,10 +34,10 @@ public:
 		Instance = nullptr;
 	}
 private:
-	Singleton() {};
-	virtual~Singleton()noexcept{};
-	Singleton(const Singleton&) {};
-	Singleton&operator=(const Singleton&) {};
+	Singleton();
+	virtual~Singleton()noexcept;
+	Singleton(const Singleton&);
+	Singleton&operator=(const Singleton&);
 	static T*Instance;
 };
 template<class T>

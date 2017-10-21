@@ -12,13 +12,17 @@
 #include<Mmsystem.h>
 #pragma comment(lib,"Winmm.lib")
 using namespace std;
-#define BUFFSIZE   1024*10
+#define BUFFSIZE   1024*20
 /*
 Ö÷ÒªAPI
 waveInOpen
 waveInPrepareHeader
+waveInAddBuffer
+waveInStart
+
 waveOutOpen
 waveOutPrepareHeader
+waveOutWrite
 
 */
 
@@ -30,7 +34,7 @@ public:
 	
 	void  WaveInitFormat(LPWAVEFORMATEX m_WaveFormat, WORD nCh, DWORD nSampleRate, WORD BitsPerSample);
 	static DWORD CALLBACK MicCallback(HWAVEIN hwavein, UINT uMsg, DWORD dwInstance, DWORD dwParam1, DWORD dwParam2);
-	void Start();
+	void RecordVoiceStart();
 protected:
 
 

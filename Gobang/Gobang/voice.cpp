@@ -2,7 +2,7 @@
 
 DWORD CALLBACK voice::MicCallback(HWAVEIN hwavein, UINT uMsg, DWORD dwInstance, DWORD dwParam1, DWORD dwParam2)
 {  
-	voice*pVoice = (voice*)dwInstance;//这里还得查找资料（看看如何搞）
+	voice*pVoice = (voice*)dwInstance;
 	switch (uMsg)
 	{
 	case WIM_OPEN:
@@ -11,7 +11,6 @@ DWORD CALLBACK voice::MicCallback(HWAVEIN hwavein, UINT uMsg, DWORD dwInstance, 
 
 	case WIM_DATA:
 	{
-		cout << "111" << endl;
 		printf("\n缓冲区%d存满...\n", ((LPWAVEHDR)dwParam1)->dwUser);
 		memcpy(pVoice->Out_Buf, ((LPWAVEHDR)dwParam1)->lpData, BUFFSIZE);
 		waveOutWrite(pVoice->m_hWaveOut, &pVoice->lpOutWaveHdr, sizeof(WAVEHDR));
@@ -43,12 +42,27 @@ voice::~voice()
 	delete[] this->Out_Buf;
 
 }
-void voice::Start()
+void voice::RecordVoiceStart()
 {
 
-	this->WaveInitFormat(&this->In_waveform, 1, 8000, 8);
 	this->WaveInitFormat(&this->Out_waveform, 1, 8000, 8);
-	MMRESULT mmResult = waveInOpen(&this->m_hWaveIn, WAVE_MAPPER, &this->In_waveform, (DWORD)&MicCallback,(DWORD)this, CALLBACK_FUNCTION);
+	MMRESULT mmResult = waveOutOpen(&this->m_hWaveOut, WAVE_MAPPER, &this->Out_waveform, 0, NULL, CALLBACK_NULL);
+	if (mmResult == MMSYSERR_NOERROR)
+	{
+
+		this->lpOutWaveHdr.lpData = this->Out_Buf;
+		this->lpOutWaveHdr.dwBufferLength = BUFFSIZE;
+		this->lpOutWaveHdr.dwUser = 1;
+		this->lpOutWaveHdr.dwFlags = 0;
+		mmResult = waveOutPrepareHeader(this->m_hWaveOut, &this->lpOutWaveHdr, sizeof(WAVEHDR));
+		if (mmResult == MMSYSERR_NOERROR)
+		{
+			cout << "播放缓冲区准备成功" << endl;
+		}
+	}
+
+	this->WaveInitFormat(&this->In_waveform, 1, 8000, 8);
+	mmResult = waveInOpen(&this->m_hWaveIn, WAVE_MAPPER, &this->In_waveform, (DWORD)&MicCallback,(DWORD)this, CALLBACK_FUNCTION);
 	if (mmResult == MMSYSERR_NOERROR)
 	{
 
@@ -61,6 +75,7 @@ void voice::Start()
 		{
 			cout << "录音缓冲区1准备成功" << endl;
 		}
+
 		this->lpInWaveHdr[1].lpData = this->In_Buf2;
 		this->lpInWaveHdr[1].dwBufferLength = BUFFSIZE;
 		this->lpInWaveHdr[1].dwUser = 2;
@@ -70,6 +85,7 @@ void voice::Start()
 		{
 			cout << "录音缓冲区2准备成功" << endl;
 		}
+
 		mmResult = waveInAddBuffer(this->m_hWaveIn, &this->lpInWaveHdr[0], sizeof(WAVEHDR));
 		if (mmResult == MMSYSERR_NOERROR)
 		{
@@ -81,21 +97,17 @@ void voice::Start()
 			cout << "录音缓冲区2加入录音设备" << endl;
 		}
 
-	}
-	mmResult = waveOutOpen(&this->m_hWaveOut, WAVE_MAPPER, &this->Out_waveform, 0, NULL,CALLBACK_NULL);
-	if (mmResult == MMSYSERR_NOERROR)
-	{
-
-		this->lpOutWaveHdr.lpData = this->Out_Buf;
-		this->lpOutWaveHdr.dwBufferLength = BUFFSIZE;
-		this->lpOutWaveHdr.dwUser = 1;
-		this->lpOutWaveHdr.dwFlags = 0;
-		mmResult = waveOutPrepareHeader(this->m_hWaveOut, &this->lpOutWaveHdr, sizeof(WAVEHDR));
+		mmResult=waveInStart(this->m_hWaveIn);
 		if (mmResult == MMSYSERR_NOERROR)
-		 {
-			cout << "播放缓冲区准备成功" << endl;
-		 }
+		{
+			cout << "录音开始" << endl;
+		}
+
+
 	}
+	
+	
+
 }
 void voice::WaveInitFormat(LPWAVEFORMATEX m_WaveFormat, WORD nCh, DWORD nSampleRate, WORD BitsPerSample)
 {

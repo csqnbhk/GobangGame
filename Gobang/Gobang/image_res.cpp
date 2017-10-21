@@ -3,68 +3,6 @@
 
 my_namespace_begin
 
-/*
-void LoadRes(HWND hwnd, TCHAR const*path, int wide, int hight, int nXDest , int nYDest, int nXSrc, int nYSrc)
-{
-	RECT rect = { 0 };
-	GetClientRect(hwnd, &rect);
-	HDC hdc = GetDC(hwnd);
-	HDC dcMem = CreateCompatibleDC(hdc);
-	HDC dctemp = CreateCompatibleDC(hdc);
-	HBITMAP bitmap = CreateCompatibleBitmap(hdc, rect.right, rect.bottom);
-	SelectObject(dcMem, bitmap);
-
-
-	HBITMAP background = (HBITMAP)LoadImage(NULL,path, IMAGE_BITMAP,wide, hight, LR_LOADFROMFILE);
-	SelectObject(dctemp, background);
-
-	BitBlt(dcMem, 0, 0,wide, hight, dctemp, 0, 0, SRCCOPY);
-	BitBlt(hdc,nXDest, nYDest,wide,hight, dcMem, nXSrc, nYSrc, SRCCOPY);
-
-
-	DeleteDC(hdc);
-	DeleteDC(dcMem);
-	DeleteDC(dctemp);
-	DeleteObject(bitmap);
-	DeleteObject(background);
-
-}
-*/
-
-
-/*************************************************************************************************
-
-                               Load Resource
-*************************************************************************************************/
-
-/*
-void LoadBackGround(HWND hwnd, TCHAR const*path, int wide, int hight, int nXDest,int nYDest,int nXSrc, int nYSrc)
-{
-	LoadRes(hwnd, path, wide, hight, nXDest,nYDest,nXSrc, nYSrc);
-
-}
-void LoadStartGame(HWND hwnd, TCHAR const*path, int wide, int hight, int nXDest, int nYDest, int nXSrc, int nYSrc)
-{
-	LoadRes(hwnd, path, wide, hight, nXDest, nYDest, nXSrc, nYSrc);
-}
-
-void LoadBegBack(HWND hwnd, TCHAR const*path, int wide, int hight, int nXDest, int nYDest, int nXSrc, int nYSrc)
-{
-	LoadRes(hwnd, path, wide, hight, nXDest, nYDest, nXSrc, nYSrc);
-}
-
-void LoadBegPeace(HWND hwnd, TCHAR const*path, int wide, int hight, int nXDest, int nYDest, int nXSrc, int nYSrc)
-{
-	LoadRes(hwnd, path, wide, hight, nXDest, nYDest, nXSrc, nYSrc);
-}
-
-void LoadExitGame(HWND hwnd, TCHAR const*path, int wide, int hight, int nXDest, int nYDest, int nXSrc, int nYSrc)
-{
-	LoadRes(hwnd, path, wide, hight, nXDest, nYDest, nXSrc, nYSrc);
-}
-*/
-
-
 /****************************************************************************************************************************************
                                 author:Deomon
 								Time:2017/10/5
